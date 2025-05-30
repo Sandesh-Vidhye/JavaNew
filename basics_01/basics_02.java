@@ -82,7 +82,8 @@ public class basics_02 {
       case '-' :
         System.out.println(Num1-Num2);
         break;
-      case '*' :        System.out.println(Num1*Num2);
+      case '*' :        
+        System.out.println(Num1*Num2);
         break;
       case '/' :
         System.out.println(Num1/Num2);
