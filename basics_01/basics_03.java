@@ -19,6 +19,7 @@ import java.util.Scanner;
   }
 }  */
 
+
 // *********** For Loop ************************
 public class basics_03 {
 
