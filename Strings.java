@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.util.jar.Attributes.Name;
 
+import javax.print.attribute.standard.MediaSize.NA;
+
 public class Strings {
 
   // Strings are IMMUTABLE
@@ -52,7 +54,7 @@ public class Strings {
 
     // Concatenation 
     String LastName = "Stark";
-    String Name = FullName + "_" + LastName;
+    // String Name = FullName + "_" + LastName;
     // System.out.println(Name);
 
     // Print letter
@@ -85,7 +87,13 @@ public class Strings {
 
     // Sub String Functions
     String str = "Sandesh Vidhye";
-    System.out.println(substring(str, 2, 9));
-    System.out.println(str.substring(0,5));
+    // System.out.println(substring(str, 2, 9));
+    // System.out.println(str.substring(0,5));
+
+    // String in Uppercase 
+    String Name = "hi, I'm a sandesh";
+    String newname =Name.toUpperCase();
+    System.out.println(newname);
+
   }
 }
