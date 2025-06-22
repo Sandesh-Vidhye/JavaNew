@@ -1,3 +1,4 @@
+package basic_02;
 import java.util.Scanner;
 import java.util.jar.Attributes.Name;
 

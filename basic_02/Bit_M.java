@@ -1,3 +1,4 @@
+package basic_02;
 public class Bit_M {
 
   public static void oddorEven(int n){
