@@ -7,22 +7,35 @@ public class PolyMor {
     // System.out.println(cal.sum(1.5f, 2.5f));
     // System.out.println(cal.sum(1, 2, 3));
 
-    Deer d = new Deer();
-    d.eat();
-  }
-  
-  // class overrinding
-  static class Animal {
-    void eat(){
-      System.out.println("eating........");
-    }
+  //   Deer d = new Deer();
+  //   d.eat();
+
+  // Abstract classses ``````````````````````````
+    Horse h = new Horse();
+    h.eat();
+    h.walk();
+    // h.changecolor();
+    System.out.println(h.color);
+
+    Chicken c = new Chicken();
+    // c.eat();
+    // c.walk();
+
   }
 
-  static class Deer extends Animal{
-    void eat(){
-      System.out.println("eat grass");
-    }
-  }
+  
+  // class overrinding
+  // static class Animal {
+  //   void eat(){
+  //     System.out.println("eating........");
+  //   }
+  // }
+
+  // static class Deer extends Animal{
+  //   void eat(){
+  //     System.out.println("eat grass");
+  //   }
+  // }
 
 //   // class overloading
 //   static class Calculator {
@@ -36,4 +49,58 @@ public class PolyMor {
 //       return a + b +c;
 //     }
 //   }
+
+
+
+// Abstraction classes
+static abstract class Animal {
+  String color ;
+  Animal (){
+    color = "brown";
+  }
+
+  void eat(){
+    System.out.println("eating....");
+  }
+  abstract void walk();
+}
+
+static class Horse extends Animal{
+  void changecolor(){
+    color = " dark " ;
+  }
+  void walk(){
+    System.out.println("Walk on four legs");
+  }
+}
+
+static class Chicken extends Animal{
+  void changecolor(){
+    color = " white " ;
+  }
+  void walk(){
+    System.out.println("Walk on two legs");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
