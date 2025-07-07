@@ -21,7 +21,7 @@ public class arrylist {
     // ArrayList<String> list2 = new ArrayList<>();
     // ArrayList<Boolean> list3 = new ArrayList<>();
 
-// add operation
+  // add operation
     // list.add(1);
     // list.add(2);
     // list.add(3);
@@ -78,46 +78,6 @@ public class arrylist {
     // System.out.println();
     swap(list, index1, index2);
     System.out.println(list);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   }
 }
